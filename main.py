@@ -1,3 +1,4 @@
+#this does not work anymore
 try:
     from discord_webhook import DiscordWebhook, DiscordEmbed
     import requests, ctypes, time, os, threading, platform
@@ -108,7 +109,7 @@ class tiktok:
         
         def thread_starter():
             self.check_username(self.usernames[self.counter], self.proxies[self.counter])
-            self.check_username(self.usernames[self.counter], self.proxies[self.counter])
+
 
         while self.checking:
             if threading.active_count() <= threads:
